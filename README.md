@@ -1,16 +1,21 @@
-# flutter_shopp_app
+# flutter_Shop_App
 
 Flutter App Inspired by Udemy Flutter & Dart The Complete Guide
 
-## Getting Started
+## File Notes
 
-This project is a starting point for a Flutter application.
+#### Products Overview File (lib/screens/products_overview.dart)
 
-A few resources to get you started if this is your first Flutter project:
+**Gridview Builder**
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
+- To structure the grid you will need to make use of one of the arguments -- gridDelegate
 
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+- For gridDelegate we used the widget, **SliverGridDelegateWithFixedCrossAxisCount()** which takes in the four arguments:
+
+    1. crossAxisCount - the amount of columns you want in the grid.
+    
+    2. childAspectRatio - height vs. width
+    
+    3. crossAxisSpacing - space between the columns
+    
+    4. mainAxisSpacing - space between the rows
