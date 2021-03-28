@@ -20,7 +20,7 @@ class MyApp extends StatelessWidget {
 
       home: ProductsOverview(),
       routes: {
-        ProductDetail.routeName: (ctx) => ProductDetail();
+        ProductDetail.routeName: (ctx) => ProductDetail()
       },
     );
   }
