@@ -4,7 +4,7 @@ Flutter App Inspired by Udemy Flutter & Dart The Complete Guide
 
 ## File Notes
 
-#### Products Overview File (lib/screens/products_overview.dart)
+### Products Overview File (lib/screens/products_overview.dart)
 
 **Gridview Builder**
 
@@ -19,3 +19,8 @@ Flutter App Inspired by Udemy Flutter & Dart The Complete Guide
     3. crossAxisSpacing - space between the columns
     
     4. mainAxisSpacing - space between the rows
+
+
+**Enum**
+
+- A way to assign labels to integers.
