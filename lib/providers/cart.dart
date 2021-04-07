@@ -1,4 +1,5 @@
 import 'package:flutter/foundation.dart';
+import 'package:flutter_shopp_app/screens/product_detail.dart';
 
 class CartItem {
   final String id;
@@ -53,6 +54,11 @@ class Cart with ChangeNotifier {
       ),
       );
     }
+    notifyListeners();
+  }
+
+  void removeItem(String productId) {
+    _items.remove(productId);
     notifyListeners();
   }
 }
