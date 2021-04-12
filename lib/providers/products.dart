@@ -86,4 +86,9 @@ List<Product> get favoriteItems {
       print('...');
     }
   }
+
+  void deleteProduct(String id) {
+  _items.removeWhere((prod) => prod.id == id);
+  notifyListeners();
+  }
 }
